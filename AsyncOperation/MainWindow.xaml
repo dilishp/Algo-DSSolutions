@@ -1,0 +1,25 @@
+﻿<Window x:Class="AsyncOperation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncOperation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Job Management" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <Label Content="Job" HorizontalAlignment="Left" Margin="25,93,0,0" VerticalAlignment="Top" Width="98" FontSize="14" Height="33"/>
+        <ComboBox Name="cmdJobTitle" DisplayMemberPath="Title" HorizontalAlignment="Left" Margin="123,93,0,0" VerticalAlignment="Top" Width="167" SelectionChanged="CmdJobTitle_SelectionChanged"/>
+        <Label Content="Employees on Job:" HorizontalAlignment="Left" Margin="25,140,0,0" VerticalAlignment="Top" Width="138" FontSize="14" Height="33"/>
+        <ListBox Name="lstofEmployees"  HorizontalAlignment="Left" DisplayMemberPath="{Binding Name}" Height="179" Margin="25,192,0,0" VerticalAlignment="Top" Width="265"/>
+        <Label Content="Id :" HorizontalAlignment="Left" Margin="397,192,0,0" VerticalAlignment="Top"/>
+        <Label Content="Title : " HorizontalAlignment="Left" Margin="397,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.523,-0.107"/>
+        <Label Content="Start Date : " HorizontalAlignment="Left" Margin="397,279,0,0" VerticalAlignment="Top"/>
+        <Label Content="End Date : " HorizontalAlignment="Left" Margin="397,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.629,5.446"/>
+        <TextBlock x:Name="txtblId"  Text="{Binding Id}" HorizontalAlignment="Left" Margin="490,192,0,0" VerticalAlignment="Top" Width="auto" Height="26"/>
+        <TextBlock x:Name="txtblTitle"  Text="{Binding Title}" HorizontalAlignment="Left" Margin="490,0,0,157" VerticalAlignment="Bottom" Width="auto" Height="26"/>
+        <TextBlock x:Name="txtblSDate"  Text="{Binding StartDate}" HorizontalAlignment="Left" Margin="490,0,0,114" VerticalAlignment="Bottom" Width="auto" Height="26"/>
+        <TextBlock x:Name="txtblEndDate"  Text="{Binding EndDate}" HorizontalAlignment="Left" Margin="490,0,0,68" VerticalAlignment="Bottom" Width="auto" Height="26"/>
+        <Label Name="lblJobTitle" Content="" HorizontalAlignment="Left" Margin="168,140,0,0" VerticalAlignment="Top" Width="122"/>
+    </Grid>
+</Window>

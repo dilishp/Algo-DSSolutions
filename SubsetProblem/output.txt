@@ -1,0 +1,11 @@
+
+(A U B) U C
+a b c d e h t 
+
+A U (B ^ C)
+
+a b c d e 
+
+(A U B) ^ (A U C)
+
+a b c d e 

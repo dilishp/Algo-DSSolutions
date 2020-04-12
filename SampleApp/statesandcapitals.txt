@@ -1,0 +1,10 @@
+Andhra Pradesh,Hyderabad
+Arunachal Pradesh,Itanagar
+Assam,Dispur
+Bihar,Patna
+Chhattisgarh,Raipur
+Goa,Panaji
+Gujarat,Gandhinagar
+Haryana,Chandigarh
+Himachal Pradesh,Shimla
+Jammu and Kashmir,Srinagar

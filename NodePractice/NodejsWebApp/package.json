@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-web-app",
+  "version": "0.0.0",
+  "description": "NodejsWebApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1"
+  }
+}

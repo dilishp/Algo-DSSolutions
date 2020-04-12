@@ -1,0 +1,5 @@
+Hello how are you.The explanation is: you create a new key\value 
+pair on a dictionary by assigning
+a value to that key. If the key doesn't exist,
+it's added and points to that value. 
+If it exists, the current value it points to is overwritten.

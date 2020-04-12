@@ -1,0 +1,13 @@
+﻿There are two Entities Basically
+
+1. Abstraction
+2. Implementor
+
+Abstraction contains a reference to the Implementor Interface.
+This allows the two to be independently developed without the one being concerned about the another.
+
+The code changes will be very minimal in the case where we want to add additional classes in the implementor.
+
+Use Bridge Pattern when
+1. To reduce the explotion of classes.
+2. Decide at the runtime which implementation of the interface to choose for a particular refined Abstraction.

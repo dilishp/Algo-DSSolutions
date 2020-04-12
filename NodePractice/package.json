@@ -1,0 +1,14 @@
+{
+    "name": "NODEPRACTICE",
+    "version": "0.0.0",
+    "description": "NodePractice",
+    "main": "test.js",
+    "author": {
+        "name": "dilish",
+        "email": ""
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "underscore": "^1.9.1"
+    }
+}

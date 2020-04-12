@@ -1,0 +1,29 @@
+No of Sales People that were Processed : 3
+No of Weeks of Sales that were processed : 7
+Last Name : lastName1
+Total for Week 0 is: 171.4
+Average for week 0 is: 24.4857
+Total for Week 1 is: 171.4
+Average for week 1 is: 24.4857
+Grand Total : 342.8
+Grand Total Average : 48.9714
+
+
+Last Name : lastName2
+Total for Week 0 is: 171.4
+Average for week 0 is: 24.4857
+Total for Week 1 is: 171.4
+Average for week 1 is: 24.4857
+Grand Total : 342.8
+Grand Total Average : 48.9714
+
+
+Last Name : lastName3
+Total for Week 0 is: 171.4
+Average for week 0 is: 24.4857
+Total for Week 1 is: 171.4
+Average for week 1 is: 24.4857
+Grand Total : 342.8
+Grand Total Average : 48.9714
+
+
