@@ -125,5 +125,8 @@
     <ClCompile Include="minimumTicketCost.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MaxLengthBinaryContiguosArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
