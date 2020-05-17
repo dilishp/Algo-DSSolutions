@@ -63,3 +63,40 @@ void solve(vector<vector<char>>& board) {
         }
     }
 }
+
+void performDFSII(vector<vector<char>>& board, int i, int j)
+{
+    if (i < 0 || (i >= board.size()) || j < 0 || (j >= board[0].size()))
+        return;
+
+    if (board[i][j] == '0')
+        return;
+
+    if (board[i][j] == 'v')
+        return;
+
+    if (board[i][j] == '1')
+        board[i][j] = 'v';
+
+    performDFS(board, i, j + 1);
+    performDFS(board, i + 1, j);
+    performDFS(board, i, j - 1);
+    performDFS(board, i - 1, j);
+}
+
+int numIslands(vector<vector<char>>& grid) {
+    int islandCount = 0;
+    for (int i = 0;i < grid.size();++i)
+    {
+        for (int j = 0;j < grid[0].size();++j)
+        {
+            if (grid[i][j] == '1')
+            {
+                performDFS(grid, i, j);
+                islandCount++;
+            }
+        }
+    }
+
+    return islandCount;
+}
