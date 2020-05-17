@@ -79,9 +79,9 @@ int findMaxLength(vector<int>& nums) {
             uMapCountvsIndex[count] = i;
         }
     }
+    return maxLength;
 }
 
-return maxLength;
 int main()
 {
     vector<int> nums = { 0, 1, 1, 0, 1, 1, 1, 0 };
