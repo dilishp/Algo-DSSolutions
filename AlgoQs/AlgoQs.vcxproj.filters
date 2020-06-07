@@ -137,5 +137,8 @@
     <ClCompile Include="PathSumBTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TwoCityScheduling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
