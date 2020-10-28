@@ -12,4 +12,5 @@ namespace AsyncOperation
 
         public string JobTitle { get; set; }
     }
+
 }
