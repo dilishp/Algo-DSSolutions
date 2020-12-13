@@ -149,6 +149,9 @@
     <ClCompile Include="DailyTemperatures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GroupSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BitmanipulationsNotes.md" />
