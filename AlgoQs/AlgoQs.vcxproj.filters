@@ -161,6 +161,9 @@
     <ClCompile Include="GetBTreePathsWithPaliandromic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DijistrasAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BitmanipulationsNotes.md" />
