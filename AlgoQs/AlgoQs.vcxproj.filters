@@ -164,6 +164,18 @@
     <ClCompile Include="DijistrasAlgo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PartitionLabels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSerarch2DMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BitmanipulationsNotes.md" />
